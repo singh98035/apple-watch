@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ec80912.css",
-    "main.js": "/static/js/main.b7b75eb7.js",
-    "index.html": "/index.html",
-    "main.8ec80912.css.map": "/static/css/main.8ec80912.css.map",
-    "main.b7b75eb7.js.map": "/static/js/main.b7b75eb7.js.map"
+    "main.css": "/apple-watch/static/css/main.8ec80912.css",
+    "main.js": "/apple-watch/static/js/main.b7b75eb7.js",
+    "index.html": "/apple-watch/index.html",
+    "main.8ec80912.css.map": "/apple-watch/static/css/main.8ec80912.css.map",
+    "main.b7b75eb7.js.map": "/apple-watch/static/js/main.b7b75eb7.js.map"
   },
   "entrypoints": [
     "static/css/main.8ec80912.css",
