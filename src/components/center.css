@@ -1,0 +1,368 @@
+.center {
+    display: flex;
+}
+
+.text {
+    width: 680px;
+    margin-top: 100px;
+    font-family: poppin;
+    line-height: 84px;
+    letter-spacing: 0.02rem;
+}
+
+.text-center {
+    color: #ffffff;
+    font-size: 64px;
+}
+
+.buy-button {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: transparent;
+}
+
+.watch-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.watch-options {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.watch-1 {
+    width: 350px;
+    height: 350px;
+    margin: 80px 0 0 50px;
+}
+
+.alocation {
+    width: 450px;
+    align-items: center;
+}
+
+.shadow {
+    width: 300px;
+    height: 50px;
+    background: #ABC6D6;
+    filter: blur(25px);
+    margin-left: 50px;
+}
+
+.gray {
+    bottom: 0;
+    height: 70px;
+    width: 131px;
+    background: rgba(67, 69, 88, 0.6);
+    border-radius: 10px;
+}
+
+.lightgreen {
+    height: 70px;
+    width: 131px;
+    background: rgba(106, 221, 204, 0.6);
+    border-radius: 10px;
+}
+
+.pink {
+    height: 70px;
+    width: 131px;
+    background: rgba(249, 205, 196, 0.6);
+    border-radius: 10px;
+}
+
+.parent {
+    position: relative;
+    text-align: center;
+    justify-items: baseline;
+}
+
+.watch-align {
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+    width: 90px;
+    height: 90px;
+}
+
+.colorbar {
+    position: relative;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dot {
+    position: absolute;
+    left: 50%;
+    height: 23vh;
+    border: 1px dotted #FFFFFF;
+    z-index: 0;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 1;
+}
+
+.color-1 {
+    background-color: #404354;
+}
+
+.color-2 {
+    background-color: #ABC6D6;
+    width: 24px;
+    height: 24px;
+    border-width: 3px;
+}
+
+.color-3 {
+    background-color: #58D7C4;
+}
+
+.color-4 {
+    background-color: #F2CEC6;
+}
+
+@media (min-width: 1050px) and (max-width: 1220px) {
+    .text-center {
+        font-size: 50px;
+    }
+    .alocation {
+        width: 400px;
+    }
+    .watch-1 {
+        margin-left: 0;
+    }
+    .gray {
+        width: 120px;
+    }
+    .lightgreen {
+        width: 120px;
+    }
+    .pink {
+        width: 120px;
+    }
+    .text {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width:1220px) and (max-width:1251px) {
+    .text-center {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1090px) {
+    .text-center {
+        font-size: 40px;
+    }
+    .alocation {
+        width: 350px;
+    }
+    .watch-1 {
+        margin-left: 0;
+    }
+    .gray {
+        width: 100px;
+    }
+    .lightgreen {
+        width: 100px;
+    }
+    .pink {
+        width: 100px;
+    }
+    .text {
+        width: 520px;
+    }
+    .watch-align {
+        left: 15px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 846px) and (max-width: 950px) {
+    .text-center {
+        font-size: 35px;
+    }
+    .alocation {
+        width: 320px;
+    }
+    .watch-1 {
+        margin-left: 0;
+        height: 300px;
+        width: 300px;
+    }
+    .gray {
+        width: 100px;
+    }
+    .buy-button {
+        width: 120px;
+        font-size: 15px;
+    }
+    .lightgreen {
+        width: 100px;
+    }
+    .pink {
+        width: 100px;
+    }
+    .text {
+        width: 450px;
+        line-height: 60px;
+    }
+    .watch-align {
+        left: 15px;
+        width: 70px;
+        height: 70px;
+    }
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+    .shadow {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 846px) {
+    .text-center {
+        font-size: 25px;
+    }
+    .alocation {
+        width: 320px;
+    }
+    .watch-1 {
+        margin-left: 0;
+        height: 280px;
+        width: 280px;
+    }
+    .gray {
+        width: 100px;
+    }
+    .buy-button {
+        width: 120px;
+        font-size: 15px;
+    }
+    .lightgreen {
+        width: 100px;
+    }
+    .pink {
+        width: 100px;
+    }
+    .text {
+        width: 450px;
+        line-height: 60px;
+    }
+    .watch-align {
+        left: 15px;
+        width: 70px;
+        height: 70px;
+    }
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+    .shadow {
+        width: 250px;
+    }
+    .colorbar {
+        height: 23vh;
+        padding-top: 180px;
+    }
+    .dot {
+        height: 22vh;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .center {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .buy-button {
+        width: 151px;
+        font-size: 15px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    .watch-option {
+        justify-content: flex-end;
+    }
+    .alocation {
+        width: fit-content;
+    }
+    .watch-options {
+        display: none;
+    }
+    .watch-1 {
+        margin-left: auto;
+        float: right;
+        height: auto;
+        width: 200px;
+        margin-top: 35px;
+    }
+    .text {
+        /* width: 680px;
+    margin-top: 100px;
+    font-family: poppin;
+    line-height: 84px;
+    letter-spacing: 0.02rem; */
+        line-height: 40px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .text-center {
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .colorbar {
+        padding-top: 70px;
+        height: 20vh;
+    }
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+    .dot {
+        height: 18vh;
+    }
+    .shadow {
+        width: 200px;
+        height: auto;
+    }
+    .watch-align {
+        display: none;
+    }
+    .parent {
+        display: none;
+    }
+    .gray {
+        display: none;
+    }
+    .lightgreen {
+        display: none;
+    }
+    .pink {
+        display: none;
+    }
+}
