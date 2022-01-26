@@ -1,5 +1,10 @@
 import React from "react";
 import "./center.css";
+import watch1 from "../images/1.png";
+import watch2 from "../images/2.png";
+import watch3 from "../images/3.png";
+import watch4 from "../images/4.png";
+
 function Center() {
     return <div className="center">
         <div className="text">
@@ -12,24 +17,24 @@ function Center() {
         </div>
         <div className="watch-option">
             <div className="alocation">
-                <img className="watch-1" src="https://inspiring-golick-7dd7d9.netlify.app/static/media/watch.eeb9bdb5cabb2bed109a.png" alt="" />
+                <img className="watch-1" src={watch1} alt="" />
 
                 <div className="shadow"></div>
                 <div className="watch-options">
                     <div className="parent">
                         <div className="gray">
 
-                            <img className="watch-align" src="https://inspiring-golick-7dd7d9.netlify.app/static/media/greyWatch.975a942ebadb5370781f.png" alt="" />
+                            <img className="watch-align" src={watch2} alt="" />
                         </div>
                     </div>
                     <div className="parent">
                         <div className="lightgreen">
-                            <img className="watch-align"  src="https://inspiring-golick-7dd7d9.netlify.app/static/media/cyanWatch.198946790f49efc087cb.png" alt="" />
+                            <img className="watch-align"  src={watch3} alt="" />
                         </div>
                     </div>
                     <div className="parent">
                         <div className="pink">
-                            <img className="watch-align" src="https://inspiring-golick-7dd7d9.netlify.app/static/media/babyPink.84f6bd7d58f50e57c096.png" alt="" />
+                            <img className="watch-align" src={watch4} alt="" />
                         </div>
                     </div>
                 </div>
