@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/apple-watch/static/css/main.45e828fe.css",
+    "main.css": "/apple-watch/static/css/main.e51e75b0.css",
     "main.js": "/apple-watch/static/js/main.3844dcf8.js",
     "static/media/4.png": "/apple-watch/static/media/4.e0f8df3acabb71dd4ad3.png",
     "static/media/3.png": "/apple-watch/static/media/3.282e630c8f4a9ffc1752.png",
     "static/media/1.png": "/apple-watch/static/media/1.eeb9bdb5cabb2bed109a.png",
     "static/media/2.png": "/apple-watch/static/media/2.534001c7df0707d6a06c.png",
     "index.html": "/apple-watch/index.html",
-    "main.45e828fe.css.map": "/apple-watch/static/css/main.45e828fe.css.map",
+    "main.e51e75b0.css.map": "/apple-watch/static/css/main.e51e75b0.css.map",
     "main.3844dcf8.js.map": "/apple-watch/static/js/main.3844dcf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.45e828fe.css",
+    "static/css/main.e51e75b0.css",
     "static/js/main.3844dcf8.js"
   ]
 }
